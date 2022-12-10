@@ -39,10 +39,58 @@
 ### Stopping Conditions
     All instances belong to the same target (i.e., entropy =0.0)
     *min_sample_split* hyperparameter reached. 
-    ~max_depth~ hyperparameter reached. 
+    *max_depth* hyperparameter reached. 
+
+## Summary Decision Tree
+### Pros:
+Fast and Efficient
+Easy to understand the model, can be visualized
+little data prep requried: Can handle nonlinear data and feature interactions
+
+### Cons:
+Good, not great at predictive performance
+
+![image](https://user-images.githubusercontent.com/106495355/206824081-76a28fbf-bf36-4ddb-9085-ee1680a84704.png)
 
 
+## Naive Bayes
+### Training: Calculates distributions per feature/class
+### Model: the distributions
+### Prediction: calculates probability of each class; choose largest
 
+### Pros: 
+Fast and Efficient
+Interpretable
+Resistant to overfitting
 
+### Cons:
+Makes a strong assumption: features are independent
+Performance not great
 
+![image](https://user-images.githubusercontent.com/106495355/206824432-3a92aafb-5340-492d-9bc8-d8dcd3bd69e3.png)
+
+## K Nearest Neighbours (KNN)
+### Training: None
+### Model: None
+### Prediction: Find the K nearest instances in the training data; majority wins
+
+### Pros:
+Easy to understand, implement, and interpret
+Training is very fast
+Usualy not bad
+
+### Cons:
+Memory intensive
+Prediction can be slow
+
+![image](https://user-images.githubusercontent.com/106495355/206824545-4ab77a9d-a2ad-4003-8c5a-9aac9cd7335f.png)
+
+## Support Vector Machines (SVM)
+###  Main idea: draw a straight line to separate the classes as much as possible
+###  Training: Algo tries a bounch of lines, choose best
+###  Model: Equation of the line
+###  Prediction: Determine which side of the line
+###  SVM uses the *kernel trick* to create non-linear decision boundary
+
+![image](https://user-images.githubusercontent.com/106495355/206825568-a42af0f5-049a-4187-94f2-b5d99bdf5991.png)
 

@@ -8,6 +8,9 @@
 
 ![image](https://user-images.githubusercontent.com/106495355/206822155-122d6419-1e24-4340-8afe-a3127d33a07c.png)
 
+
+
+
 ## Python Packages
 
 ![image](https://user-images.githubusercontent.com/106495355/206822188-781766b4-f260-4409-821e-5989494365b2.png)
@@ -15,6 +18,10 @@
 ## Which One is the Best?
 
 ![image](https://user-images.githubusercontent.com/106495355/206822256-41fe71d9-5266-4025-a063-81f26a16e996.png)
+
+## And the others 
+
+![image](https://user-images.githubusercontent.com/106495355/206834169-0b533704-2437-421d-8e6d-af21fade7984.png)
 
 ## Hyperparameters
 ### The settings that control the algorithm's behaviour
@@ -87,10 +94,66 @@ Prediction can be slow
 
 ## Support Vector Machines (SVM)
 ###  Main idea: draw a straight line to separate the classes as much as possible
-###  Training: Algo tries a bounch of lines, choose best
-###  Model: Equation of the line
-###  Prediction: Determine which side of the line
+###  Training: Find hyperplane that best splits training data
+###  Model: Equation of hyperplane
+###  Prediction: Determine which side of hyperplane the instance is on
+###  Decision Boundary: Anything
 ###  SVM uses the *kernel trick* to create non-linear decision boundary
 
+### Pros:
+High accuracy
+Can learn non-linear deicion boundaries
+Versatile because of kernel trick
+
+### Cons:
+Training time is very long
+Hard to interpret
+Can overfit
+
 ![image](https://user-images.githubusercontent.com/106495355/206825568-a42af0f5-049a-4187-94f2-b5d99bdf5991.png)
+
+## Neural Networks
+### A network of neurons connected by weighted edges
+### Training: Algo finds best values for weights
+### Model: The weights
+### Prediction: Plug instance values into input layer, NN does math
+### Decision Boundary: Anything
+
+### Pros:
+Great predictive performance
+Best performance for unstructured data
+Sexy
+### Cons:
+Hard to interpret
+Hard to design good architecture
+Needs lots of data
+Long training time
+
+## Ensembles
+## Different Ensembles:
+### Committee
+![image](https://user-images.githubusercontent.com/106495355/206832577-37e751d8-85b4-41cc-b2f7-566c30c0ea44.png)
+
+### Bagging (ex. Random Forests, Extra Trees)
+![image](https://user-images.githubusercontent.com/106495355/206832734-29b6c6d6-6bcf-4df6-8e1a-8a9ea810d896.png)
+
+
+### Boosting (ex. EGBoost, LGBM, CatBoost)
+![image](https://user-images.githubusercontent.com/106495355/206833027-9b95c314-0ee2-4cb8-b0f9-2edd8501678b.png)
+
+### Pros:
+Great predictive performance
+Relatively Fast
+Tree-based
+### Cons:
+Harder to interpret
+Lots of hyperparameters to tune
+
+# The Ultimate Comparison Guide
+![image](https://user-images.githubusercontent.com/106495355/206833826-f3e88f99-6a67-4515-a07f-6d073d9e5ed2.png)
+
+
+
+
+
 

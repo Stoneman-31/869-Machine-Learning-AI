@@ -17,3 +17,9 @@
 2. Coverage
 3. Personalization
 4. Intra-list similarityvv
+
+### Confusion Matrix : a tabulation of the predictions against the truth
+1. True Positive
+2. True Negative
+3. False Positive
+4. False Negative

@@ -1,19 +1,19 @@
 # Performance Metrics
 ### Regression
-Mean Squared Error
-Mean Absolute Error
-Root MSE
+1. Mean Squared Error
+2. Mean Absolute Error
+3. Root MSE
 
 ### Classification
-Accuracy/Error
-Precision, Recall
-F1 Score
-Sensitivity, Specificity
-ROC Curve and AUC
-Log Loss
+1. Accuracy/Error
+2. Precision, Recall
+3. F1 Score
+4. Sensitivity, Specificity
+5. ROC Curve and AUC
+6. Log Loss
 
 ### Recommendation
-Mean Average Precision @ K
-Coverage
-Personalization
-Intra-list similarityvv
+1. Mean Average Precision @ K
+2. Coverage
+3. Personalization
+4. Intra-list similarityvv

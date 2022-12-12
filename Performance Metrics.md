@@ -1,10 +1,13 @@
 # Performance Metrics
-## Regression
+
+![image](https://user-images.githubusercontent.com/106495355/207142458-65cd0716-f46f-4dfc-86c0-896332af474c.png)
+
+## Regression Performance Measurement
 1. Mean Squared Error
 2. Mean Absolute Error
 3. Root MSE
 
-## Classification
+## Classification Performance Measurement
 1. Accuracy/Error
 2. Precision, Recall
 3. F1 Score
@@ -12,7 +15,7 @@
 5. ROC Curve and AUC
 6. Log Loss
 
-## Recommendation
+## Recommendation Performance Measurement
 1. Mean Average Precision @ K
 2. Coverage
 3. Personalization
@@ -40,6 +43,14 @@ Recall = TP/(TP+FN)
 F1 = (2* Precision * Recall) /(Precision + Recall)
 
 ![image](https://user-images.githubusercontent.com/106495355/207140834-52a621f5-712e-47ff-88da-b34dfd706212.png)
+
+### ROC Curve
+
+![image](https://user-images.githubusercontent.com/106495355/207141803-2b08cef2-69a0-46e8-b380-2f5881bb8dd8.png)
+
+### AUC (Area Under Curve)
+
+![image](https://user-images.githubusercontent.com/106495355/207142023-900f80bd-2e0e-4634-a537-de8c8178ab81.png)
 
 
 

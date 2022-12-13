@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/106495355/207167112-baa22b6b-c40c-4161-8209-55ce9c1a7017.png)
 
+![image](https://user-images.githubusercontent.com/106495355/207189437-17bcf04e-b6cc-407c-b9cf-f97485e3bd99.png)
+
 # Feature Engineering
 ## Feature Engineering : creating new features to allow machine learning algorithms work better
 ### Applied machine learning is basically feature engineering. ---Andrew Ng

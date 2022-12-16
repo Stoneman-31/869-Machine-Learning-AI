@@ -1,4 +1,7 @@
 # Recommender Systems
+# Should refer to Uncle Steve's Slides
+
+![image](https://user-images.githubusercontent.com/106495355/208036314-99cf86b7-06db-4242-a210-ec61af22ad38.png)
 
 ![image](https://user-images.githubusercontent.com/106495355/208035482-a8394cc3-670e-447b-9272-7381d97eaf13.png)
 
